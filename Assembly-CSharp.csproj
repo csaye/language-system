@@ -49,8 +49,6 @@
      <Compile Include="Assets\Scripts\Language\Languages\LanguageEN.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageFR.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageSP.cs" />
-     <Compile Include="Assets\Scripts\UI\Buttons\ButtonLanguage.cs" />
-     <Compile Include="Assets\Scripts\UI\Buttons\ButtonScene.cs" />
      <Compile Include="Assets\Scripts\UI\MenuButton.cs" />
      <Compile Include="Assets\Scripts\UI\TextField.cs" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
