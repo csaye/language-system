@@ -5,15 +5,19 @@ using UnityEngine;
 public class LanguageManager
 {
     
-    public static string current;
+    public static string currentLanguage = "EN";
 
-    void Start()
+    public static string GetField(string fieldID)
     {
-        current = "LanguageEN";
-    }
+        switch (currentLanguage)
+        {
+            case "EN": return LanguageEN.GetField(fieldID);
+            case "SP": return LanguageSP.GetField(fieldID);
+            case "FR": return LanguageFR.GetField(fieldID);
 
-    void Update()
-    {
-        
+            default:
+                Debug.Log("Error: language could not be found");
+                return null;
+        }
     }
 }

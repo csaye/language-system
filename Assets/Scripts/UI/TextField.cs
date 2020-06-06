@@ -7,9 +7,8 @@ public class TextField : MonoBehaviour
 {
     public string fieldID;
 
-    void Awake()
+    void Update()
     {
-        // GetComponent<TextMeshProGUI>().text = LanguageManager.current.fieldID;
-        GetComponent<TMPro.TextMeshProUGUI>().text = "hi";
+        GetComponent<TMPro.TextMeshProUGUI>().text = LanguageManager.GetField(fieldID);
     }
 }
