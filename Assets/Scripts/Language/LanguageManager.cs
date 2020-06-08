@@ -12,7 +12,7 @@ public class LanguageManager
         switch (currentLanguage)
         {
             case "EN": return LanguageEN.GetField(fieldID);
-            case "SP": return LanguageSP.GetField(fieldID);
+            case "ES": return LanguageES.GetField(fieldID);
             case "FR": return LanguageFR.GetField(fieldID);
 
             default:
