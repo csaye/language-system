@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Language\LanguageManager.cs" />
+     <Compile Include="Assets\Scripts\Language\Languages\LanguageDE.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageEN.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageES.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageFR.cs" />
