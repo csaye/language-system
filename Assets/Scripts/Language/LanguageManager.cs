@@ -15,6 +15,7 @@ public class LanguageManager
             case "EN": return LanguageEN.GetField(fieldID);
             case "ES": return LanguageES.GetField(fieldID);
             case "FR": return LanguageFR.GetField(fieldID);
+            case "HI": return LanguageHI.GetField(fieldID);
 
             default:
                 Debug.Log("Error: language could not be found");

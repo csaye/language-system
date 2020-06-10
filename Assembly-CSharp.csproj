@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Language\Languages\LanguageEN.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageES.cs" />
      <Compile Include="Assets\Scripts\Language\Languages\LanguageFR.cs" />
+     <Compile Include="Assets\Scripts\Language\Languages\LanguageHI.cs" />
      <Compile Include="Assets\Scripts\UI\MenuButton.cs" />
      <Compile Include="Assets\Scripts\UI\TextField.cs" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
