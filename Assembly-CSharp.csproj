@@ -45,17 +45,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Language\LanguageManager.cs" />
-     <Compile Include="Assets\Scripts\Language\Languages\LanguageDE.cs" />
-     <Compile Include="Assets\Scripts\Language\Languages\LanguageEN.cs" />
-     <Compile Include="Assets\Scripts\Language\Languages\LanguageES.cs" />
-     <Compile Include="Assets\Scripts\Language\Languages\LanguageFR.cs" />
-     <Compile Include="Assets\Scripts\Language\Languages\LanguageHI.cs" />
-     <Compile Include="Assets\Scripts\UI\MenuButton.cs" />
-     <Compile Include="Assets\Scripts\UI\TextField.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\LanguageManager.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\Languages\LanguageDE.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\Languages\LanguageEN.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\Languages\LanguageES.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\Languages\LanguageFR.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Language\Languages\LanguageHI.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Localization\LocalizationManager.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Localization\LocalizedTextField.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\UI\MenuButton.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\UI\TextField.cs" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\VideoGame\Localization\EN\item.txt" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\VideoGame\Localization\FR\item.txt" />
+     <None Include="Assets\VideoGame\Localization\ES\item.txt" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\Extras\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -64,7 +69,9 @@
      <None Include="Assets\Extras\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\VideoGame\Localization\EN\menu.txt" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\VideoGame\Localization\ES\menu.txt" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
