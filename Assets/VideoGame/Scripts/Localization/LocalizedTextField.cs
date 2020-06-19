@@ -6,12 +6,12 @@ namespace VideoGame.Localization
 {
     public class LocalizedTextField : MonoBehaviour
     {
-        public string type;
-        public int line;
+        [Header("References")]
+        public LocalizedReference localizedReference;
 
         void Start()
         {
-            GetComponent<TMPro.TextMeshProUGUI>().text = LocalizationManager.getField(type, line);
+            GetComponent<TMPro.TextMeshProUGUI>().text = LocalizationManager.getField(localizedReference);
         }
     }
 }

@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\VideoGame\Scripts\Localization\LocalizationManager.cs" />
+     <Compile Include="Assets\VideoGame\Scripts\Localization\LocalizedReference.cs" />
      <Compile Include="Assets\VideoGame\Scripts\Localization\LocalizedTextField.cs" />
      <Compile Include="Assets\VideoGame\Scripts\UI\MenuButton.cs" />
      <None Include="Assets\Extras\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

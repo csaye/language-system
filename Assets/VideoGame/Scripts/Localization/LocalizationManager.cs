@@ -9,15 +9,15 @@ namespace VideoGame.Localization
     {
         public static string currentLanguage = "EN";
 
-        public static string getField(string type, int line)
+        public static string getField(LocalizedReference localizedReference)
         {
-            string path = "Assets/VideoGame/Localization/" + currentLanguage + "/" + type + ".txt";
+            string path = "Assets/VideoGame/Localization/" + currentLanguage + "/" + localizedReference.type + ".txt";
 
             try
             {
                 StreamReader reader = new StreamReader(path);
 
-                for (int i = 0; i < line - 1; i++)
+                for (int i = 0; i < localizedReference.line - 1; i++)
                 {
                     reader.ReadLine();
                 }
