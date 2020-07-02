@@ -635,10 +635,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: f7b56bbb-1c4f-4d66-a0bf-8d41edd4ca74
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Language System
+  organizationId: csaye
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
